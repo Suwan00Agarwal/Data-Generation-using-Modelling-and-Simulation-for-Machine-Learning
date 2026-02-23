@@ -80,7 +80,18 @@ Input Features:
 5. Gradient Boosting  
 6. SVR  
 7. KNN  
-8. XGBoost  
+8. XGBoost
+
+| Model               | R2 Score | MAE      | RMSE     |
+|---------------------|----------|----------|----------|
+| Gradient Boosting   | 0.9694   | 12.0933  | 15.5144  |
+| XGBoost             | 0.9671   | 12.1191  | 16.0839  |
+| Random Forest       | 0.9661   | 12.0091  | 16.3225  |
+| Linear Regression   | 0.8799   | 23.4636  | 30.7334  |
+| Ridge               | 0.8719   | 24.1258  | 31.7333  |
+| Lasso               | 0.8386   | 26.4815  | 35.6228  |
+| KNN                 | 0.4948   | 46.2460  | 63.0296  |
+| SVR                 | 0.4654   | 50.0517  | 64.8373  |
 
 ---
 
